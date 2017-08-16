@@ -33,7 +33,8 @@ require(
 		var nes = new JSNES({
 			'ui': $('#emulator').JSNESUI({
 				"ACT游戏": [
-					["超级马里奥", "roms/mario.nes"]
+					["超级马里奥", "roms/mario.nes"],
+					["最终幻想3中文版", "roms/ff3.nes",],
 				]
 			})
 		});
